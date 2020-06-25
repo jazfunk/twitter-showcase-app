@@ -4,7 +4,7 @@ class TwitterShowcase extends Component {
   render() {
     return (
       <div>
-        <h1>Twitter Showcase App</h1>
+        Twitter Showcase App
       </div>
     )
   }
