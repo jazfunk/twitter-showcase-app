@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import TwitterShowcase from "./TwitterShowcase"
+import AppHeader from "./AppHeader"
+import AppMain from "./AppMain"
+import AppFooter from "./AppFooter"
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />   
-        <TwitterShowcase />     
-      </header>
+      <AppHeader />
+      <AppMain />
+      <AppFooter />
     </div>
   );
 }
