@@ -13,6 +13,18 @@
   color: #57BA98;
 }
 
+li {
+  display: block;
+}
+
+.App-nav {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: row;  
+}
+
 .App-main {
   background-color: #65CCB8;
   min-height: 80vh;
