@@ -3,32 +3,32 @@
 }
 
 .App-header {
-  background-color: #17252A;
+  background-color: #182628;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #FEFFFF;
+  color: #57BA98;
 }
 
 .App-main {
-  background-color: #2b7a78;
+  background-color: #65CCB8;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: calc(8px + 2vmin);
-  color: #DEF2F1;
+  color: #F2F2F2;
 }
 
 .App-footer {
-  background-color: #3AAFA9;
+  background-color: #3B945E;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: calc(8px + 2vmin);
-  color: #DEF2F1;
+  color: 182628;
 }
