@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import JKLogo from "./images/titleGraphicWithLogoOPTIMIZED.svg"
+import JKLogo from "./images/titleGraphicWithLogo_TwitterColorsOPTIMIZED.svg"
 
 class AppFooter extends Component {
   render() {

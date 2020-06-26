@@ -18,6 +18,18 @@ main {
   color: #F2F2F2;
 }
 
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('images/Twitter_Logo_White.svg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 auto;  
+  width: 100vmin;
+  height: 100vmin;
+  color: #182628;
+}
+
 footer {
   /* background-color: #3B945E; */
   background-color: rgba(59, 148, 94, .6);

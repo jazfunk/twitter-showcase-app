@@ -1,10 +1,12 @@
 import React, {Component} from "react"
+import TwitterShowcase from "./TwitterShowcase"
 
 class AppMain extends Component {
   render() {
     return (
       <main>
-        Twitter Showcase App
+        The Twitter Bridge
+        <TwitterShowcase />
       </main>
     )
   }
