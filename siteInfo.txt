@@ -1,11 +1,6 @@
-Wide:  680
-Desktop:  557
-Tablet:  431
-Phone:  320
-
-Dark:  #17252A
-Medium: #2B7A78
-Middle:  #3AAFA9
-Light:  #DEF2F1
-Lighter:  #FEFFF
+Dark:  #182628
+Medium: #65CCB8
+Middle:  #57BA98
+Light:  #3B945E
+Lighter:  #F2F2F2
 
