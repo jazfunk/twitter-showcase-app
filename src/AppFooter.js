@@ -1,10 +1,11 @@
-import React, {Component} from "react"
+import React, {Component} from "react";
+import JKLogo from "./images/titleGraphicWithLogoOPTIMIZED.svg"
 
 class AppFooter extends Component {
   render() {
     return (
-      <footer className="App-footer">
-        Footer Component
+      <footer>
+        <img id="jk-logo" src={JKLogo} alt="Jeff King"></img>
       </footer>
     )
   }

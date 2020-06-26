@@ -4,43 +4,36 @@
   background-size: cover;
 }
 
-/* .App-header {
-  /* background-color: #182628; */
-  /* min-height: 10vh; */
-  /* font-size: 18px; */
-  /* color: #57BA98; */
-/*} */
+nav {
+  height: 6vh;
+}
 
-/* .App-nav {
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  flex-direction: row;  
-} */
-
-.App-main {
-  background-color: #65CCB8;
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  min-height: 80vh;
+main {
+  /* background-color: #65CCB8; */
+  background-color: rgba(101, 204, 184, 0.6);
+  height: 88vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-size: calc(8px + 2vmin);
   color: #F2F2F2;
 }
 
-.App-footer {
-  background-color: #3B945E;
-  min-height: 10vh;
+footer {
+  /* background-color: #3B945E; */
+  background-color: rgba(59, 148, 94, .6);
+  height: 6vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: calc(8px + 2vmin);
-  color: 182628;
+  color: #57BA98;
+}
+
+#jk-logo {
+  height: 4vh;
 }
 
 #twitter-logo {
-  height: 5vh;
+  height: 4vh;
   fill: #65CCB8;
 }
