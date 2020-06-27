@@ -4,6 +4,11 @@
   background-size: cover;
 }
 
+.navbar-height {
+  height: 6vmin;
+  font-size: calc(8px + 1vmin);
+}
+
 .App-main {
   /* background-color: #65CCB8; */
   background-color: rgba(101, 204, 184, 0.6);

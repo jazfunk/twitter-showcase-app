@@ -6,11 +6,11 @@ import TwitterLogo from "./images/Twitter_Logo_White.svg"
 class AppNavigation extends Component {
   render() {
     return (
-      <Navbar bg="dark" expands="lg">
+      <Navbar bg="dark" expands="lg" className="navbar-height">
       <img id="twitter-logo" src={TwitterLogo} alt="Twitter"></img>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
+          <Nav className="mr-auto">
             <NavLink className="d-inline p-2 bg-dark text-white text-decoration-none" to="/home">
               Home
             </NavLink>
