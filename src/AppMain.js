@@ -1,12 +1,10 @@
 import React, {Component} from "react"
-import TwitterShowcase from "./TwitterShowcase"
 
 class AppMain extends Component {
   render() {
     return (
-      <main>
-        The Twitter Bridge
-        <TwitterShowcase />
+      <main className="App-main">
+        {/* BrowswerRouter path determines component to load */}
       </main>
     )
   }

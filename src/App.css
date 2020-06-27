@@ -4,14 +4,10 @@
   background-size: cover;
 }
 
-nav {
-  height: 6vh;
-}
-
-main {
+.App-main {
   /* background-color: #65CCB8; */
   background-color: rgba(101, 204, 184, 0.6);
-  height: 88vh;
+  height: 44vh;
   display: flex;
   flex-direction: column;
   font-size: calc(8px + 2vmin);

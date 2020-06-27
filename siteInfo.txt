@@ -1,6 +1,6 @@
 Dark:  #182628
 Medium: #65CCB8
 Middle:  #57BA98
-Light:  #3B945E
+Green:  #3B945E
 Lighter:  #F2F2F2
 
