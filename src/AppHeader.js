@@ -13,9 +13,9 @@ class AppHeader extends Component {
         <header>
           <AppNavigation />
           <Switch>
-            <Route path="/home" component={Home} />
-            <Route path="/showcase" component={Showcase} />
-            <Route path="/random" component={Random} />
+            <Route path="/" exact component={Home} />
+            <Route path="/showcase" exact component={Showcase} />
+            <Route path="/random" exact component={Random} />
           </Switch>
         </header>
       </BrowserRouter>

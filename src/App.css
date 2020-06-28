@@ -1,18 +1,14 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   background: url('images/Twitter_Bridge.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
-.navbar-height {
-  height: 6vmin;
-  font-size: calc(8px + 1vmin);
-}
-
 .App-main {
+  /* Below is left for hex color reference */
   /* background-color: #65CCB8; */
   background-color: rgba(101, 204, 184, 0.6);
-  height: 44vh;
+  height: 88vmin;
   display: flex;
   flex-direction: column;
   font-size: calc(8px + 2vmin);
@@ -21,10 +17,11 @@
 
 .showcase {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  background: url('images/Twitter_Logo_White.svg') no-repeat center center fixed;
-  background-size: cover;
+  /* background: url('images/Twitter_Logo_White.svg') no-repeat center center fixed;
+  background-size: cover; */
   margin: 0 auto;  
   width: 100vmin;
   height: 100vmin;
@@ -32,13 +29,14 @@
 }
 
 footer {
+  /* Below is left for hex color reference */
   /* background-color: #3B945E; */
   background-color: rgba(59, 148, 94, .6);
   height: 6vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(8px + 2vmin);
+  /* font-size: calc(8px + 2vmin); */
   color: #57BA98;
 }
 

@@ -1,9 +1,10 @@
 import React from "react";
+import TwitterShowcase from "../TwitterShowcase"
 
 const Home = () => {
   return (
     <div className="App-main">
-      <h1>Home</h1>
+      <TwitterShowcase />
     </div>
   );
 };
