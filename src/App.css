@@ -8,11 +8,11 @@
 }
 
 .App-main {
-  background-color: rgba(101, 204, 184, 0.6);
+  background-color: rgba(242, 242, 242, 0.6);
   height: 87vh;
   display: flex;
   flex-direction: column;
-  color: #F2F2F2;
+  color: #57BA98;
 }
 
 .home-container {
