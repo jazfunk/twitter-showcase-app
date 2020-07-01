@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
-import HomeBG from "./images/card_bg_birdseyeview.jpg";
-import ShowcaseBG from "./images/card_bg_showcase.jpg";
-import RandomBG from "./images/card_bg_random.jpg";
+import HomeBG from "./images/BirdView.png";
+import ShowcaseBG from "./images/Showcase.png";
+import RandomBG from "./images/Random.png";
 
 class TwitterShowcase extends Component {
   render() {
