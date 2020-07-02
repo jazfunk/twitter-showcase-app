@@ -1,15 +1,13 @@
 import React from "react";
-// import Card from "react-bootstrap/Card";
-// import HomeBG from "/src/images/card_bg_birdseyeview.jpg";
-// import ShowcaseBG from "/src/images/card_bg_showcase.jpg";
-// import RandomBG from "/src/images/card_bg_random.jpg";
-import TwitterShowcase from "../TwitterShowcase"
+import Card from "react-bootstrap/Card";
+import HomeBG from "../images/BirdView.png";
+import ShowcaseBG from "../images/Showcase.png";
+import RandomBG from "../images/Random.png";
 
 const Home = () => {
   return (
     <div className="App-main">
-      <TwitterShowcase />
-      {/* <div className="home-container">
+      <div className="home-container">
         <div className="home-card">
           <Card className="bg-dark text-white">
             <Card.Img src={HomeBG} alt="Card image" />
@@ -37,7 +35,7 @@ const Home = () => {
             </Card.ImgOverlay>
           </Card>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
